@@ -1,0 +1,108 @@
+        <!-- Project 5 -->
+        <article class="project-slide" data-category="tbd">
+          <div class="project-video-frame">
+            <div style="width: 1200px; height: 675px; background: rgba(255,255,255,0.05); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.5);">Image Coming Soon</div>
+          </div>
+          <div class="project-meta">
+            <div class="project-meta-top">
+              <span class="project-industry">TBD</span>
+              <span class="project-type">TBD</span>
+            </div>
+            <h3 class="project-title">Project 5</h3>
+            <p class="project-description">Content coming soon</p>
+            <div class="project-roles">
+              <span class="role-badge">Content coming soon</span>
+            </div>
+            <a href="project.html?id=5" class="project-cta" data-transition>View Case Study &rarr;</a>
+          </div>
+        </article>
+        <!-- Project 6 -->
+        <article class="project-slide" data-category="tbd">
+          <div class="project-video-frame">
+            <div style="width: 1200px; height: 675px; background: rgba(255,255,255,0.05); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.5);">Image Coming Soon</div>
+          </div>
+          <div class="project-meta">
+            <div class="project-meta-top">
+              <span class="project-industry">TBD</span>
+              <span class="project-type">TBD</span>
+            </div>
+            <h3 class="project-title">Project 6</h3>
+            <p class="project-description">Content coming soon</p>
+            <div class="project-roles">
+              <span class="role-badge">Content coming soon</span>
+            </div>
+            <a href="project.html?id=6" class="project-cta" data-transition>View Case Study &rarr;</a>
+          </div>
+        </article>
+        <!-- Project 7 -->
+        <article class="project-slide" data-category="tbd">
+          <div class="project-video-frame">
+            <div style="width: 1200px; height: 675px; background: rgba(255,255,255,0.05); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.5);">Image Coming Soon</div>
+          </div>
+          <div class="project-meta">
+            <div class="project-meta-top">
+              <span class="project-industry">TBD</span>
+              <span class="project-type">TBD</span>
+            </div>
+            <h3 class="project-title">Project 7</h3>
+            <p class="project-description">Content coming soon</p>
+            <div class="project-roles">
+              <span class="role-badge">Content coming soon</span>
+            </div>
+            <a href="project.html?id=7" class="project-cta" data-transition>View Case Study &rarr;</a>
+          </div>
+        </article>
+        <!-- Project 8 -->
+        <article class="project-slide" data-category="tbd">
+          <div class="project-video-frame">
+            <div style="width: 1200px; height: 675px; background: rgba(255,255,255,0.05); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.5);">Image Coming Soon</div>
+          </div>
+          <div class="project-meta">
+            <div class="project-meta-top">
+              <span class="project-industry">TBD</span>
+              <span class="project-type">TBD</span>
+            </div>
+            <h3 class="project-title">Project 8</h3>
+            <p class="project-description">Content coming soon</p>
+            <div class="project-roles">
+              <span class="role-badge">Content coming soon</span>
+            </div>
+            <a href="project.html?id=8" class="project-cta" data-transition>View Case Study &rarr;</a>
+          </div>
+        </article>
+        <!-- Project 9 -->
+        <article class="project-slide" data-category="tbd">
+          <div class="project-video-frame">
+            <div style="width: 1200px; height: 675px; background: rgba(255,255,255,0.05); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.5);">Image Coming Soon</div>
+          </div>
+          <div class="project-meta">
+            <div class="project-meta-top">
+              <span class="project-industry">TBD</span>
+              <span class="project-type">TBD</span>
+            </div>
+            <h3 class="project-title">Project 9</h3>
+            <p class="project-description">Content coming soon</p>
+            <div class="project-roles">
+              <span class="role-badge">Content coming soon</span>
+            </div>
+            <a href="project.html?id=9" class="project-cta" data-transition>View Case Study &rarr;</a>
+          </div>
+        </article>
+        <!-- Project 10 -->
+        <article class="project-slide" data-category="tbd">
+          <div class="project-video-frame">
+            <div style="width: 1200px; height: 675px; background: rgba(255,255,255,0.05); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: rgba(255,255,255,0.5);">Image Coming Soon</div>
+          </div>
+          <div class="project-meta">
+            <div class="project-meta-top">
+              <span class="project-industry">TBD</span>
+              <span class="project-type">TBD</span>
+            </div>
+            <h3 class="project-title">Project 10</h3>
+            <p class="project-description">Content coming soon</p>
+            <div class="project-roles">
+              <span class="role-badge">Content coming soon</span>
+            </div>
+            <a href="project.html?id=10" class="project-cta" data-transition>View Case Study &rarr;</a>
+          </div>
+        </article>

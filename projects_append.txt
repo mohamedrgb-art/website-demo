@@ -1,0 +1,216 @@
+  {
+    id: '5',
+    slug: 'project-5',
+    url: 'project.html?id=5',
+    title: 'Project 5',
+    subtitle: 'Content coming soon',
+    category: 'TBD',
+    subCategory: 'TBD',
+    client: 'TBD',
+    industry: 'TBD',
+    year: '2026',
+    role: 'Content coming soon',
+    rolesList: ['Content coming soon'],
+    duration: 'TBD',
+    coverImage: '',
+    thumbnail: '',
+    video: '',
+    badge: '',
+    software: [],
+    projectGoal: {
+      heading: 'Project Goal',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    myApproach: {
+      heading: 'My Approach',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    challenges: {
+      heading: 'Challenges',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    workflow: []
+  },
+  {
+    id: '6',
+    slug: 'project-6',
+    url: 'project.html?id=6',
+    title: 'Project 6',
+    subtitle: 'Content coming soon',
+    category: 'TBD',
+    subCategory: 'TBD',
+    client: 'TBD',
+    industry: 'TBD',
+    year: '2026',
+    role: 'Content coming soon',
+    rolesList: ['Content coming soon'],
+    duration: 'TBD',
+    coverImage: '',
+    thumbnail: '',
+    video: '',
+    badge: '',
+    software: [],
+    projectGoal: {
+      heading: 'Project Goal',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    myApproach: {
+      heading: 'My Approach',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    challenges: {
+      heading: 'Challenges',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    workflow: []
+  },
+  {
+    id: '7',
+    slug: 'project-7',
+    url: 'project.html?id=7',
+    title: 'Project 7',
+    subtitle: 'Content coming soon',
+    category: 'TBD',
+    subCategory: 'TBD',
+    client: 'TBD',
+    industry: 'TBD',
+    year: '2026',
+    role: 'Content coming soon',
+    rolesList: ['Content coming soon'],
+    duration: 'TBD',
+    coverImage: '',
+    thumbnail: '',
+    video: '',
+    badge: '',
+    software: [],
+    projectGoal: {
+      heading: 'Project Goal',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    myApproach: {
+      heading: 'My Approach',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    challenges: {
+      heading: 'Challenges',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    workflow: []
+  },
+  {
+    id: '8',
+    slug: 'project-8',
+    url: 'project.html?id=8',
+    title: 'Project 8',
+    subtitle: 'Content coming soon',
+    category: 'TBD',
+    subCategory: 'TBD',
+    client: 'TBD',
+    industry: 'TBD',
+    year: '2026',
+    role: 'Content coming soon',
+    rolesList: ['Content coming soon'],
+    duration: 'TBD',
+    coverImage: '',
+    thumbnail: '',
+    video: '',
+    badge: '',
+    software: [],
+    projectGoal: {
+      heading: 'Project Goal',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    myApproach: {
+      heading: 'My Approach',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    challenges: {
+      heading: 'Challenges',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    workflow: []
+  },
+  {
+    id: '9',
+    slug: 'project-9',
+    url: 'project.html?id=9',
+    title: 'Project 9',
+    subtitle: 'Content coming soon',
+    category: 'TBD',
+    subCategory: 'TBD',
+    client: 'TBD',
+    industry: 'TBD',
+    year: '2026',
+    role: 'Content coming soon',
+    rolesList: ['Content coming soon'],
+    duration: 'TBD',
+    coverImage: '',
+    thumbnail: '',
+    video: '',
+    badge: '',
+    software: [],
+    projectGoal: {
+      heading: 'Project Goal',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    myApproach: {
+      heading: 'My Approach',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    challenges: {
+      heading: 'Challenges',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    workflow: []
+  },
+  {
+    id: '10',
+    slug: 'project-10',
+    url: 'project.html?id=10',
+    title: 'Project 10',
+    subtitle: 'Content coming soon',
+    category: 'TBD',
+    subCategory: 'TBD',
+    client: 'TBD',
+    industry: 'TBD',
+    year: '2026',
+    role: 'Content coming soon',
+    rolesList: ['Content coming soon'],
+    duration: 'TBD',
+    coverImage: '',
+    thumbnail: '',
+    video: '',
+    badge: '',
+    software: [],
+    projectGoal: {
+      heading: 'Project Goal',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    myApproach: {
+      heading: 'My Approach',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    challenges: {
+      heading: 'Challenges',
+      en: 'Content coming soon.',
+      ar: '??????? ??????.'
+    },
+    workflow: []
+  }

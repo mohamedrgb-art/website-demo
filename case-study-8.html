@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formula One Promo — A cinematic Formula 1 commercial capturing the speed, intensity and emotion of modern motorsport. Case study by MOHAMEDRGBART.">
+  <meta name="author" content="Mohamed RGB Art">
+  <meta name="theme-color" content="#060B13">
+  <title>Formula One Promo — MOHAMEDRGBART Case Study</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/case-study.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="case-study-page">
+
+  <!-- Page Transition Overlay -->
+  <div class="page-transition" id="pageTransition">
+    <div class="transition-bar"></div>
+    <div class="transition-bar"></div>
+    <div class="transition-bar"></div>
+    <div class="transition-bar"></div>
+    <div class="transition-bar"></div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" id="customCursor">
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+    <span class="cursor-text" id="cursorText"></span>
+  </div>
+
+  <!-- 3D Ribbon -->
+  <div class="ribbon" id="ribbon">
+    <svg class="ribbon-svg" viewBox="0 0 200 2000" preserveAspectRatio="none"></svg>
+  </div>
+
+  <!-- Case Study Navigation -->
+  <nav class="nav cs-nav" id="navbar">
+    <div class="nav-container">
+      <a class="nav-brand" href="index.html">MOHAMEDRGBART</a>
+      <div class="nav-actions">
+        <a class="cs-back-link" href="index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+          Back to Projects
+        </a>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg id="sunIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg id="moonIcon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="display:none;"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="cs-hero">
+    <div class="cs-hero-media">
+      <img src="assets/images/f1-cover.png" alt="Formula One Promo" width="1920" height="1080" loading="eager">
+      <div class="cs-hero-gradient"></div>
+    </div>
+    <div class="cs-hero-content container">
+      <span class="cs-status-badge">Featured</span>
+      <h1 class="cs-title">Formula One Promo</h1>
+      <p class="cs-tagline">A cinematic Formula 1 commercial capturing the speed, intensity and emotion of modern motorsport.</p>
+    </div>
+  </section>
+
+  <section class="cs-section cs-overview">
+    <div class="container">
+      <div class="cs-meta-grid">
+        <div class="cs-meta-item reveal-up">
+          <span class="cs-meta-label">Client</span>
+          <span class="cs-meta-value">Personal Project</span>
+        </div>
+        <div class="cs-meta-item reveal-up">
+          <span class="cs-meta-label">Industry</span>
+          <span class="cs-meta-value">Sports Commercial</span>
+        </div>
+        <div class="cs-meta-item reveal-up">
+          <span class="cs-meta-label">Year</span>
+          <span class="cs-meta-value">2026</span>
+        </div>
+        <div class="cs-meta-item reveal-up">
+          <span class="cs-meta-label">Role</span>
+          <span class="cs-meta-value">Editing, Motion Graphics, Sound Design</span>
+        </div>
+        <div class="cs-meta-item reveal-up">
+          <span class="cs-meta-label">Duration</span>
+          <span class="cs-meta-value">0:57</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-section cs-challenge">
+    <div class="container cs-content-narrow">
+      <p class="section-label reveal-up">Project Goal</p>
+      <h2 class="cs-heading reveal-up">High Speed. Zero Room for Error.</h2>
+      <p class="cs-text reveal-up">The goal of this project was to create a complete cinematic commercial without filming a single shot. Using footage collected from different sources, I wanted to demonstrate my ability to take an idea from concept to a polished commercial through storytelling, editing, and sound design.</p>
+      <p class="cs-text reveal-up" dir="rtl" style="text-align: right;">الفكرة من الفيديو ده كانت إني أعمل إعلان سينمائي كامل من غير ما أصور ولا شوت بالاعتماد على لقطات جمعتها من مصادر مختلفة زي Youtube و غيره و كان هدفي أوضح إني أقدر أحول فكرة بسيطة لإعلان كامل من أول الفكرة والسكريبت لحد النسخة النهائية.</p>
+    </div>
+  </section>
+
+  <section class="cs-section cs-approach">
+    <div class="container cs-content-narrow">
+      <p class="section-label reveal-up">Strategy</p>
+      <h2 class="cs-heading reveal-up">My Approach</h2>
+      <p class="cs-text reveal-up">I started by developing the idea and writing the script with the help of Generative AI, then created the voice-over using AI as well. After collecting the footage, I used Premiere Pro, After Effects, Photoshop, color grading, and sound design to turn separate clips into one cohesive cinematic commercial.</p>
+      <p class="cs-text reveal-up" dir="rtl" style="text-align: right;">بدأت بكتابة الفكرة والسكريبت بمساعدة الذكاء الاصطناعي، وبعدها عملت الفويس أوفر بنفس الطريقة. بعد كده جمعت اللقطات المناسبة، واستخدمت Premiere Pro وAfter Effects وPhotoshop مع تصحيح الألوان وتصميم الصوت علشان كل اللقطات تبان كأنها مشروع واحد متصور مخصوص.</p>
+    </div>
+  </section>
+
+  <section class="cs-section cs-problems">
+    <div class="container cs-content-narrow">
+      <p class="section-label reveal-up">Problem Solving</p>
+      <h2 class="cs-heading reveal-up">Challenges</h2>
+      <p class="cs-text reveal-up">The biggest challenge was finding footage from different sources that matched the voice-over and the cinematic pacing I had in mind. Careful shot selection, editing, and rhythm helped transform unrelated clips into one seamless commercial.</p>
+      <p class="cs-text reveal-up" dir="rtl" style="text-align: right;">أكبر تحدي كان إني ألاقي لقطات من مصادر مختلفة تمشي مع الفويس أوفر والإيقاع اللي كنت متخيله. قضيت وقت في البحث واختيار اللقطات المناسبة، وبعدها اعتمدت على المونتاج والإيقاع علشان كل الفيديوهات تطلع كأنها إعلان واحد.</p>
+    </div>
+  </section>
+
+  <section class="cs-section cs-process">
+    <div class="container">
+      <div class="cs-content-narrow">
+        <p class="section-label reveal-up">Workflow</p>
+        <h2 class="cs-heading reveal-up">How It Was Made</h2>
+      </div>
+      <div class="cs-process-flow reveal-up">
+        <!-- Step 1: Idea -->
+        <div class="cs-process-step">
+          <div class="cs-process-card">
+            <svg class="cs-process-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 2.38 1.19 4.47 3 5.74V17a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.26c1.81-1.27 3-3.36 3-5.74a7 7 0 0 0-7-7z"></path><path d="M9 21h6"></path></svg>
+          </div>
+          <span class="cs-process-label">Idea</span>
+          <p class="cs-process-subtext">Build excitement before the race even starts.</p>
+        </div>
+
+        <div class="cs-process-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </div>
+
+        <!-- Step 2: Shoot -->
+        <div class="cs-process-step">
+          <div class="cs-process-card">
+            <svg class="cs-process-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+          </div>
+          <span class="cs-process-label">Shoot</span>
+          <p class="cs-process-subtext">Selected the strongest Formula 1 racing moments.</p>
+        </div>
+
+        <div class="cs-process-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </div>
+
+        <!-- Step 3: Edit -->
+        <div class="cs-process-step">
+          <div class="cs-process-card">
+            <svg class="cs-process-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="20" y1="4" x2="8.12" y2="15.88"></line><line x1="14.47" y1="14.47" x2="20" y2="20"></line><line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+          </div>
+          <span class="cs-process-label">Edit</span>
+          <p class="cs-process-subtext">Fast-paced editing synchronized with music and movement.</p>
+        </div>
+
+        <div class="cs-process-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </div>
+
+        <!-- Step 4: Color -->
+        <div class="cs-process-step">
+          <div class="cs-process-card">
+            <svg class="cs-process-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.92 0 1.7-.72 1.7-1.65 0-.43-.17-.83-.46-1.13-.28-.3-.46-.7-.46-1.14 0-.92.73-1.68 1.66-1.68h2.06c2.8 0 5.04-2.24 5.04-5.04 0-5.22-4.24-9.36-9.54-9.36z"></path></svg>
+          </div>
+          <span class="cs-process-label">Color</span>
+          <p class="cs-process-subtext">Applied a bold cinematic grade with strong contrast.</p>
+        </div>
+
+        <div class="cs-process-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </div>
+
+        <!-- Step 5: Sound -->
+        <div class="cs-process-step">
+          <div class="cs-process-card">
+            <svg class="cs-process-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+          </div>
+          <span class="cs-process-label">Sound</span>
+          <p class="cs-process-subtext">Layered engine sounds, impacts, risers and transitions.</p>
+        </div>
+
+        <div class="cs-process-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </div>
+
+        <!-- Step 6: Deliver -->
+        <div class="cs-process-step">
+          <div class="cs-process-card">
+            <svg class="cs-process-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <span class="cs-process-label">Deliver</span>
+          <p class="cs-process-subtext">Optimized for social media and digital viewing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-section cs-software">
+    <div class="container">
+      <div class="cs-content-narrow">
+        <p class="section-label reveal-up">Tools</p>
+        <h2 class="cs-heading reveal-up">Software Used</h2>
+      </div>
+      <div class="cs-software-grid">
+        <div class="cs-software-item reveal-up">
+          <div class="cs-software-icon">
+            <span>Pr</span>
+          </div>
+          <span class="cs-software-name">Adobe Premiere Pro</span>
+        </div>
+        <div class="cs-software-item reveal-up">
+          <div class="cs-software-icon">
+            <span>Ae</span>
+          </div>
+          <span class="cs-software-name">Adobe After Effects</span>
+        </div>
+        <div class="cs-software-item reveal-up">
+          <div class="cs-software-icon">
+            <span>Ps</span>
+          </div>
+          <span class="cs-software-name">Adobe Photoshop</span>
+        </div>
+        <div class="cs-software-item reveal-up">
+          <div class="cs-software-icon">
+            <span>AI</span>
+          </div>
+          <span class="cs-software-name">Generative AI</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-section cs-final">
+    <div class="container">
+      <div class="cs-content-narrow">
+        <p class="section-label reveal-up">Final Result</p>
+        <h2 class="cs-heading reveal-up">Watch the Commercial</h2>
+      </div>
+      <div class="cs-video-player reveal-up">
+        <div class="cs-video-frame">
+          <video controls poster="assets/images/f1-cover.png">
+            <source src="Selected works/F1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-section cs-next-project">
+    <div class="container">
+      <a href="case-study-2.html" class="cs-next-link" data-transition>
+        <p class="section-label">Next Project</p>
+        <h2 class="cs-next-title">Italian Course Commercial</h2>
+        <div class="cs-next-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 MOHAMEDRGBART &mdash; Crafted with intention.</p>
+      <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+      </button>
+    </div>
+  </footer>
+
+  <script src="js/theme.js" defer></script>
+  <script src="js/navigation.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/lazy-load.js" defer></script>
+  <script src="js/particles.js" defer></script>
+  <script src="js/cursor.js" defer></script>
+  <script src="js/ribbon.js" defer></script>
+  <script src="js/transitions.js" defer></script>
+  <script src="js/projects.js" defer></script>
+  <script src="js/case-study.js" defer></script>
+</body>
+</html>

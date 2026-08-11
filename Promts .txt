@@ -1,0 +1,324 @@
+PROMPT 1 — FOUNDATION
+
+
+You are a senior award-winning UI/UX designer, creative director, and front-end developer.
+
+Your mission is to design and build a premium interactive portfolio website for a professional video editor under the personal brand:
+
+MOHAMEDRGBART
+
+This is NOT a traditional portfolio.
+This is NOT a template.
+This is NOT a corporate website.
+
+It is a cinematic digital experience that showcases the way the creator thinks, not only the final videos.
+
+The entire experience should feel calm, premium, intelligent, modern, and memorable.
+
+====================================================
+
+MAIN GOAL
+
+The website should convince potential clients that Mohamed is not simply someone who edits videos.
+
+He analyzes.
+He plans.
+He builds creative ideas.
+He directs.
+He edits.
+He designs motion.
+He creates emotion.
+
+Every design decision should reinforce this idea.
+
+The visitor must feel they are exploring the creative mind behind every project.
+
+Never create unnecessary visual effects.
+
+Content is always more important than animation.
+
+====================================================
+
+DESIGN STYLE
+
+The overall style should combine:
+
+Apple
+Awwwards
+Minimalism
+Modern Editorial Design
+Cinematic Interfaces
+Luxury Technology
+
+Avoid:
+
+Gaming UI
+
+Cyberpunk
+
+Neon overload
+
+Heavy glassmorphism
+
+Complex brutalism
+
+Flashy animations
+
+Too many gradients
+
+The design should feel timeless.
+
+====================================================
+
+COLOR PALETTE
+
+Primary Background
+
+#060B13
+
+Secondary Background
+
+#0B1624
+
+Surface
+
+#101C2C
+
+Primary Text
+
+#F5F7FA
+
+Secondary Text
+
+#8FA4B8
+
+Accent
+
+#39A8FF
+
+Hover Accent
+
+#7DD3FF
+
+The overall mood should feel inspired by:
+
+Deep ocean at night
+
+Soft blue reflections
+
+Luxury
+
+Silence
+
+Focus
+
+====================================================
+
+TYPOGRAPHY
+
+General Sans
+
+Inter
+
+Large headings
+
+Wide spacing
+
+Short readable paragraphs
+
+Never create long blocks of text.
+
+====================================================
+
+LAYOUT
+
+Use a clean grid.
+
+Large white space.
+
+Large margins.
+
+Everything should breathe.
+
+The layout should always feel balanced.
+
+Every section should occupy approximately one viewport height.
+
+====================================================
+
+WEBSITE STRUCTURE
+
+Hero
+
+Featured Projects
+
+About
+
+Services
+
+Testimonials
+
+Contact
+
+Footer
+
+No blog.
+
+No pricing page.
+
+No unnecessary sections.
+
+====================================================
+
+RESPONSIVE
+
+Desktop First
+
+Tablet optimized
+
+Mobile optimized
+
+Perfect responsive behavior.
+
+====================================================
+
+PROGRAMMING
+
+Use ONLY
+
+HTML
+
+CSS
+
+Vanilla JavaScript
+
+Do NOT use:
+
+React
+
+Vue
+
+Angular
+
+Next.js
+
+Bootstrap
+
+Tailwind
+
+GSAP
+
+Three.js
+
+Any framework
+
+Any external animation library
+
+Everything must be handcrafted.
+
+====================================================
+
+ANIMATION PHILOSOPHY
+
+Every animation must have a purpose.
+
+If an animation does not improve storytelling or usability,
+remove it.
+
+Animations should feel inspired by Apple.
+
+Soft.
+
+Elegant.
+
+Smooth.
+
+Never distracting.
+
+====================================================
+
+PERFORMANCE
+
+Performance has maximum priority.
+
+Lazy load videos.
+
+Optimize rendering.
+
+Avoid layout shifts.
+
+Use transform and opacity whenever possible.
+
+Maintain high FPS.
+
+====================================================
+
+DARK MODE
+
+Dark mode is the default experience.
+
+Create a beautiful light mode version.
+
+The transition between them must be smooth.
+
+Remember the user's preference.
+
+====================================================
+
+USER EXPERIENCE
+
+The visitor should understand within the first 10 seconds:
+
+Who Mohamed is.
+
+What he does.
+
+The quality of his work.
+
+How to contact him.
+
+Navigation should always remain simple.
+
+The interface should never confuse the visitor.
+
+====================================================
+
+CONTENT PHILOSOPHY
+
+This website does not sell editing.
+
+It sells thinking.
+
+It sells creative direction.
+
+It sells storytelling.
+
+It sells attention to detail.
+
+====================================================
+
+OVERALL EMOTION
+
+After finishing the website, the visitor should feel:
+
+"I don't want an editor.
+
+I want THIS editor."
+
+====================================================
+
+IMPORTANT
+
+Do not generate placeholder designs that feel generic.
+
+The website should feel custom designed specifically for the personal brand MOHAMEDRGBART.
+
+Think like an Awwwards winner while maintaining Apple's simplicity.
+
+This project must feel premium from the first pixel to the last.
+
+
+
+
+
+
