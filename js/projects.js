@@ -219,7 +219,7 @@ window.PROJECTS_DATA = [
     coverImage: 'assets/images/capsule_thumb.jpg',
     thumbnail: 'assets/images/capsule_thumb.jpg',
     videoPoster: 'assets/images/capsule-cover.png',
-    video: 'Selected works/الهدوم مبتبهتش_1.mp4',
+    video: 'https://drive.google.com/file/d/1zdCBouY6B1uyfQcDSaoCInag5HVLvnPK/preview',
     video2: 'Selected works/الفودبلوجرز 2 (1).mp4',
     badge: 'Featured',
     software: [

@@ -104,6 +104,11 @@ const CaseStudyPage = {
       });
     }
 
+    const iframeTag = document.querySelector('.cs-video-frame iframe');
+    if (iframeTag && project.video && project.video.startsWith('http')) {
+      iframeTag.setAttribute('src', project.video);
+    }
+
     const videoTag = document.querySelector('.cs-video-frame video');
     if (videoTag) {
       if (project.coverImage || project.thumbnail) {
