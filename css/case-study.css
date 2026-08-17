@@ -474,7 +474,7 @@
 }
 
 /* ============================================
-   FINAL VIDEO — ADAPTIVE ASPECT RATIO PLAYER
+   FINAL VIDEO — THUMBNAIL PREVIEW + PLAY BUTTON
    ============================================ */
 .cs-final {
   background-color: var(--bg-secondary);
@@ -485,129 +485,230 @@
   width: 100%;
   margin: var(--space-8) auto 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  gap: 1.25rem;
 }
 
+/* The clickable preview card that wraps thumbnail + overlay */
+.cs-video-preview {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(10, 15, 25, 0.95);
+  border: 1px solid rgba(57, 168, 255, 0.15);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 30px rgba(57, 168, 255, 0.08);
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  will-change: transform;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.cs-video-preview:hover {
+  border-color: rgba(57, 168, 255, 0.35);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.55), 0 0 50px rgba(57, 168, 255, 0.18);
+  transform: translateY(-2px);
+}
+
+/* Aspect ratio presets on the preview card */
+.cs-video-preview.ratio-16-9 {
+  max-width: 960px;
+  aspect-ratio: 16 / 9;
+}
+
+.cs-video-preview.ratio-9-16 {
+  max-width: 380px;
+  aspect-ratio: 9 / 16;
+}
+
+/* Thumbnail image fills the card */
+.cs-video-preview__thumb {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+  transition: transform 0.5s ease;
+}
+
+.cs-video-preview:hover .cs-video-preview__thumb {
+  transform: scale(1.03);
+}
+
+/* Dark gradient overlay over thumbnail */
+.cs-video-preview__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(6, 11, 19, 0.15) 0%,
+    rgba(6, 11, 19, 0.45) 60%,
+    rgba(6, 11, 19, 0.65) 100%
+  );
+  border-radius: 16px;
+  transition: background 0.3s ease;
+}
+
+.cs-video-preview:hover .cs-video-preview__overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(6, 11, 19, 0.1) 0%,
+    rgba(6, 11, 19, 0.38) 60%,
+    rgba(6, 11, 19, 0.55) 100%
+  );
+}
+
+/* Play button centered in the card */
+.cs-video-preview__play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  pointer-events: none;
+}
+
+.cs-play-btn {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: background 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+  flex-shrink: 0;
+}
+
+.cs-play-btn svg {
+  margin-left: 4px; /* optical centering for play triangle */
+}
+
+.cs-video-preview:hover .cs-play-btn {
+  background: rgba(57, 168, 255, 0.85);
+  border-color: rgba(57, 168, 255, 1);
+  transform: scale(1.1);
+}
+
+.cs-play-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 1px 4px rgba(0,0,0,0.6);
+}
+
+/* Secondary "Open in Google Drive" link below the card */
+.cs-drive-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 0.45rem 1rem;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.cs-drive-link:hover {
+  color: var(--text-primary);
+  border-color: rgba(57, 168, 255, 0.4);
+  background: rgba(57, 168, 255, 0.08);
+}
+
+.cs-drive-link svg {
+  flex-shrink: 0;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.cs-drive-link:hover svg {
+  opacity: 1;
+}
+
+/* ---- Keep .cs-video-frame for backward-compat (non-iframe content) ---- */
 .cs-video-frame {
   position: relative;
   width: 100%;
   border-radius: 16px;
   overflow: hidden;
   background: rgba(10, 15, 25, 0.95);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(57, 168, 255, 0.15);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 30px rgba(57, 168, 255, 0.08);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
   margin: 0 auto;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease, max-width 0.4s ease;
-  will-change: transform;
 }
 
-.cs-video-frame:hover {
-  border-color: rgba(57, 168, 255, 0.3);
-  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.5), 0 0 40px rgba(57, 168, 255, 0.15);
-}
-
-/* Aspect ratio presets */
-.cs-video-frame.ratio-16-9,
-.cs-video-frame[data-aspect="16:9"] {
+.cs-video-frame.ratio-16-9 {
   max-width: 960px;
   aspect-ratio: 16 / 9;
 }
 
-.cs-video-frame.ratio-9-16,
-.cs-video-frame[data-aspect="9:16"] {
+.cs-video-frame.ratio-9-16 {
   max-width: 380px;
   aspect-ratio: 9 / 16;
 }
 
-.cs-video-frame video,
-.cs-video-frame img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  max-width: 100%;
-  max-height: 80vh;
-  border-radius: 16px;
-  object-fit: contain;
-}
-
-.cs-video-frame iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  border-radius: 16px;
-  display: block;
-  object-fit: contain;
-}
-
-/* Mobile responsive adjustments */
+/* Mobile responsive */
 @media (max-width: 768px) {
   .cs-video-player {
     margin-top: var(--space-6);
     padding: 0 var(--space-2);
   }
 
+  .cs-video-preview {
+    border-radius: 12px;
+  }
+
+  .cs-video-preview__thumb {
+    border-radius: 12px;
+  }
+
+  .cs-video-preview__overlay {
+    border-radius: 12px;
+  }
+
+  .cs-video-preview.ratio-9-16 {
+    max-width: min(340px, 88vw);
+  }
+
+  .cs-play-btn {
+    width: 64px;
+    height: 64px;
+  }
+
+  .cs-play-label {
+    font-size: 0.72rem;
+  }
+
   .cs-video-frame {
     border-radius: 12px;
   }
 
-  .cs-video-frame.ratio-9-16,
-  .cs-video-frame[data-aspect="9:16"] {
+  .cs-video-frame.ratio-9-16 {
     max-width: min(340px, 88vw);
   }
-
-  .cs-video-frame iframe {
-    border-radius: 12px;
-  }
 }
 
-.cs-video-play-overlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(6, 11, 19, 0.4);
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.cs-video-play-overlay:hover {
-  background: rgba(6, 11, 19, 0.5);
-}
-
-.cs-play-button {
-  width: 72px;
-  height: 72px;
-  border-radius: 50%;
-  background: rgba(57, 168, 255, 0.9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  transition: transform 0.3s ease, background 0.3s ease;
-}
-
-.cs-play-button svg {
-  margin-left: 3px;
-}
-
-.cs-video-play-overlay:hover .cs-play-button {
-  transform: scale(1.08);
-  background: var(--accent);
-}
-
-.cs-play-message {
-  font-size: var(--text-lg);
-  color: var(--text-secondary);
-  font-weight: 500;
-  letter-spacing: 0.05em;
-}
 
 /* ============================================
    PREVIOUS / NEXT PROJECT NAVIGATION

@@ -247,7 +247,7 @@
         <h2 class="cs-heading reveal-up">Watch the Reels</h2>
       </div>
 
-      <!-- Video 01: Published (Google Drive Embedded Player) -->
+      <!-- Video 01: Published -->
       <div class="cs-video-block reveal-up" style="margin-bottom: 3rem;">
         <div class="cs-content-narrow" style="margin-bottom: 1rem;">
           <h3 style="font-size: 1.25rem; font-weight: 600; color: var(--color-text); display: flex; align-items: center; gap: 0.75rem;">
@@ -256,9 +256,28 @@
           </h3>
         </div>
         <div class="cs-video-player">
-          <div class="cs-video-frame ratio-9-16" data-aspect="9:16">
-            <iframe src="https://drive.google.com/file/d/1zdCBouY6B1uyfQcDSaoCInag5HVLvnPK/preview" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen="true" title="Ali Gilani — The Capsule" loading="lazy"></iframe>
-          </div>
+          <a class="cs-video-preview ratio-9-16"
+             href="https://drive.google.com/file/d/1zdCBouY6B1uyfQcDSaoCInag5HVLvnPK/view"
+             target="_blank"
+             rel="noopener noreferrer"
+             aria-label="Watch Ali Gilani — The Capsule on Google Drive"
+             data-aspect="9:16">
+            <img class="cs-video-preview__thumb" src="assets/images/capsule_thumb.jpg" alt="Ali Gilani — The Capsule" loading="lazy">
+            <div class="cs-video-preview__overlay"></div>
+            <div class="cs-video-preview__play">
+              <div class="cs-play-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              </div>
+              <span class="cs-play-label">Play Video</span>
+            </div>
+          </a>
+          <a class="cs-drive-link"
+             href="https://drive.google.com/file/d/1zdCBouY6B1uyfQcDSaoCInag5HVLvnPK/view"
+             target="_blank"
+             rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Open in Google Drive ↗
+          </a>
         </div>
       </div>
     </div>
