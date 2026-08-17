@@ -104,9 +104,12 @@ const CaseStudyPage = {
       });
     }
 
-    const iframeTag = document.querySelector('.cs-video-frame iframe');
-    if (iframeTag && project.video && project.video.startsWith('http')) {
-      iframeTag.setAttribute('src', project.video);
+    const iframes = document.querySelectorAll('.cs-video-frame iframe');
+    if (iframes.length > 0 && project.video && project.video.startsWith('http')) {
+      if (iframes[0]) iframes[0].setAttribute('src', project.video);
+      if (iframes[1] && project.video2 && project.video2.startsWith('http')) {
+        iframes[1].setAttribute('src', project.video2);
+      }
     }
 
     const videoTag = document.querySelector('.cs-video-frame video');
@@ -172,6 +175,19 @@ const CaseStudyPage = {
     frames.forEach(frame => {
       const video = frame.querySelector('video');
       const img = frame.querySelector('img');
+      const iframe = frame.querySelector('iframe');
+
+      if (iframe) {
+        if (frame.style.height) frame.style.height = '';
+        if (!frame.classList.contains('ratio-9-16') && !frame.classList.contains('ratio-16-9')) {
+          const aspect = frame.getAttribute('data-aspect');
+          if (aspect === '9:16' || aspect === '9/16') {
+            frame.classList.add('ratio-9-16');
+          } else {
+            frame.classList.add('ratio-16-9');
+          }
+        }
+      }
 
       const applyAspect = (width, height) => {
         if (!width || !height) return;
