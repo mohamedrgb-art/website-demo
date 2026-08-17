@@ -179,13 +179,28 @@ const CaseStudyPage = {
 
       if (iframe) {
         if (frame.style.height) frame.style.height = '';
-        if (!frame.classList.contains('ratio-9-16') && !frame.classList.contains('ratio-16-9')) {
-          const aspect = frame.getAttribute('data-aspect');
-          if (aspect === '9:16' || aspect === '9/16') {
-            frame.classList.add('ratio-9-16');
-          } else {
-            frame.classList.add('ratio-16-9');
+
+        let aspect = frame.getAttribute('data-aspect');
+        if (!aspect && window.ProjectsManager) {
+          const fullPath = window.location.pathname;
+          const currentFilename = fullPath.substring(fullPath.lastIndexOf('/') + 1) || 'case-study-1.html';
+          const proj = window.ProjectsManager.getByUrl(currentFilename);
+          if (proj && proj.aspectRatio) {
+            aspect = proj.aspectRatio;
+            frame.setAttribute('data-aspect', aspect);
           }
+        }
+
+        if (aspect === '9:16' || aspect === '9/16') {
+          frame.classList.add('ratio-9-16');
+          frame.classList.remove('ratio-16-9');
+        } else if (aspect === '4:3' || aspect === '4/3') {
+          frame.classList.add('ratio-4-3');
+          frame.classList.remove('ratio-16-9', 'ratio-9-16');
+        } else if (aspect && aspect.includes('/')) {
+          frame.style.setProperty('--aspect-ratio', aspect.replace('/', ' / '));
+        } else {
+          frame.classList.add('ratio-16-9');
         }
       }
 

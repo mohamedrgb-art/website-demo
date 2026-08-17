@@ -23,6 +23,7 @@ window.PROJECTS_DATA = [
     coverImage: 'assets/images/f1_thumb.jpg',
     thumbnail: 'assets/images/f1_thumb.jpg',
     videoPoster: 'assets/images/f1-cover.png',
+    aspectRatio: '16/9',
     video: 'https://drive.google.com/file/d/1uEyyOfjHxuvt0UJi8hzkOjN69qtP3PCL/preview',
     badge: 'Featured',
     software: [
@@ -72,6 +73,7 @@ window.PROJECTS_DATA = [
     coverImage: 'assets/images/italy_thumb.jpg',
     thumbnail: 'assets/images/italy_thumb.jpg',
     videoPoster: 'assets/images/italy-cover.png',
+    aspectRatio: '16/9',
     video: 'https://drive.google.com/file/d/1u02dj9ZrypSbc4tfqgzKthN7iNm6gxJT/preview',
     badge: 'Featured',
     software: [
@@ -122,6 +124,7 @@ window.PROJECTS_DATA = [
     coverImage: 'assets/images/36years_thumb.jpg',
     thumbnail: 'assets/images/36years_thumb.jpg',
     videoPoster: 'assets/images/36years-cover.png',
+    aspectRatio: '16/9',
     video: 'https://drive.google.com/file/d/1AvWNND22qTPhKX_96FYbDMLugEx4roBA/preview',
     badge: 'Featured',
     software: [
@@ -172,6 +175,7 @@ window.PROJECTS_DATA = [
     coverImage: 'assets/images/cure_arena_thumb.jpg',
     thumbnail: 'assets/images/cure_arena_thumb.jpg',
     videoPoster: 'assets/images/cure-arena-cover.png',
+    aspectRatio: '16/9',
     video: 'https://drive.google.com/file/d/1kNLIei26RqHyA1w0YBVWZsTHcSbvmexR/preview',
     badge: 'Featured',
     software: [
@@ -219,6 +223,7 @@ window.PROJECTS_DATA = [
     coverImage: 'assets/images/capsule_thumb.jpg',
     thumbnail: 'assets/images/capsule_thumb.jpg',
     videoPoster: 'assets/images/capsule-cover.png',
+    aspectRatio: '9/16',
     video: 'https://drive.google.com/file/d/1zdCBouY6B1uyfQcDSaoCInag5HVLvnPK/preview',
     video2: 'Selected works/الفودبلوجرز 2 (1).mp4',
     badge: 'Featured',
@@ -271,6 +276,7 @@ window.PROJECTS_DATA = [
     coverImage: 'assets/images/maysam_pencil_thumb.jpg',
     thumbnail: 'assets/images/maysam_pencil_thumb.jpg',
     videoPoster: 'assets/images/maysam-cover.png',
+    aspectRatio: '9/16',
     video: 'https://drive.google.com/file/d/1vaCUEQJTUtnoQ-_6bLq2B9IasjGPL5wk/preview',
     badge: 'Featured',
     software: [
